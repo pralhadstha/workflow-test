@@ -21,9 +21,9 @@ class Test extends Model
     ];
 
     public function user()
-        {
-            return $this->belongsTo(User::class);
-        }
+    {
+        return $this->belongsTo(User::class);
+    }
 
     /**
      * The attributes that should be hidden for serialization.

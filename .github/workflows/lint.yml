@@ -1,6 +1,6 @@
 name: Fix Code Style
 
-on: [push]
+on: [pull_request]
 
 jobs:
   lint:
@@ -30,4 +30,4 @@ jobs:
       - name: Commit linted files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Fixes coding style"
+          commit_message: "Coding style auto fixes"

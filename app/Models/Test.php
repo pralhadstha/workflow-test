@@ -7,11 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Test extends Model
 {
-                use HasFactory;
+    use HasFactory;
 
-            /**
+    /**
      * The attributes that are mass assignable.
-            *
+    *
      * @var array<int, string>
      */
     protected $fillable = [
@@ -21,7 +21,8 @@ class Test extends Model
     ];
 
 
-    public function user() {
+    public function user()
+    {
         return $this->belongsTo(User::class);
     }
 

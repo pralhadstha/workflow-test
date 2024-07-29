@@ -3,15 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Test;
-use App\Models\User;
 use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
-
-
-
-
     /**
      * Display a listing of the resource.
      * @param \App\Models\User $user

@@ -7,39 +7,38 @@ use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @param  \App\Models\User  $user
-     * @param  string  $gets
-     * @return array
-     */
-    public function index($user, $gets)
-    {
-        //
-    }
+                /**
+                 * Display a listing of the resource.
+                 *
+                 * @param  \App\Models\User  $user
+                 * @param  string  $gets
+                 * @return array
+                 */
+                public function index($user, $gets)
+                {
+                    //
+                }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
+                                        /**
+                                         * Show the form for creating a new resource.
+                                         */
+                                        public function create()
+                                        {
+                                            //
+                                        }
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
-    }
+                                        /**
+                                         * Store a newly created resource in storage.
+                                         */
+                                        public function store(Request $request)
+                                        {
+                                            //
+                                        }
 
     /**
      * Display the specified resource.
      */
-    public function show(Test $test)
-    {
+    public function show(Test $test) {
         //
     }
 

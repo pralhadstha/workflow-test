@@ -6,7 +6,7 @@ on:
 
 jobs:
   lint:
-    if: contains(github.event.pull_request.labels.*.name, 'ready%20for%20review')
+    if: contains(github.event.pull_request.labels.*.name, 'ready for review')
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true

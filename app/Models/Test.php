@@ -11,15 +11,14 @@ class Test extends Model
 
     /**
      * The attributes that are mass assignable.
-    *
+     *
      * @var array<int, string>
      */
     protected $fillable = [
         'name',
-            'email',
+        'email',
         'password',
     ];
-
 
     public function user()
     {
@@ -28,8 +27,8 @@ class Test extends Model
 
     /**
      * The attributes that should be hidden for serialization.
-            *
-            * @var array<int, string>
+     *
+     * @var array<int, string>
      */
     protected $hidden = [
         'password',

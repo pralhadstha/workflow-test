@@ -9,18 +9,15 @@ class TestController extends Controller
 {
     /**
      * Display a listing of the resource.
-     * @param \App\Models\User $user
-     * @param  string $gets
+     *
+     * @param  \App\Models\User  $user
+     * @param  string  $gets
      * @return array
      */
     public function index($user, $gets)
     {
         //
     }
-
-
-
-
 
     /**
      * Show the form for creating a new resource.
@@ -37,7 +34,6 @@ class TestController extends Controller
     {
         //
     }
-
 
     /**
      * Display the specified resource.
